@@ -3,16 +3,26 @@ import styled from 'styled-components'
 
 function Header() {
   return (
-    <HeaderContainer>
-    
-    </HeaderContainer>
+    <Nav>
+        <Logo src= "" />
+        <NavMenu>
+
+        </NavMenu>
+    </Nav>
   )
 }
 
 export default Header
 
-const HeaderContainer = styled.div`
+const Nav = styled.nav`
     height: 70px;
     background: #090b13;
+
+`
+const Logo = styled.img`
+    width: 80px;
+
+`
+const NavMenu = styled.div`
 
 `
