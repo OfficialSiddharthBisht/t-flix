@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Header() {
   return (
     <Nav>
-        <Logo src= "" />
+        <Logo src= "/images/logo.svg" />
         <NavMenu>
 
         </NavMenu>
@@ -17,7 +17,9 @@ export default Header
 const Nav = styled.nav`
     height: 70px;
     background: #090b13;
-
+    display: flex;
+    algin-items: center;
+    padding: 0 36px;
 `
 const Logo = styled.img`
     width: 80px;
