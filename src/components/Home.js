@@ -7,10 +7,9 @@ import Movies from './Movies'
 function Home() {
   return (
     <Container>
-    <ImgSlider />
-    <Viewers />
-    <Movies />
-    Home
+      <ImgSlider />
+      <Viewers />
+      <Movies />
     </Container>
   )
 }
